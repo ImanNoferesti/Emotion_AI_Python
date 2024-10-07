@@ -67,8 +67,8 @@ The dataset is divided into training and testing sets. Training is performed usi
 1. Compile the model: Using a mean squared error loss function and Adam optimizer.
 2. Train: The model is trained on the training set and validated on the testing set.
 
-    model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
-    model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=50)
+   `model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
+   model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=50)`
 
 ### Augmentation Techniques
 Data augmentation is crucial in this project to increase the size of the dataset and enhance the model's robustness. Augmentation methods include:

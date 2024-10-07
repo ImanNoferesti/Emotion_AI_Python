@@ -19,10 +19,10 @@ Facial keypoint detection is an essential task in computer vision, with applicat
 ### Dataset
 The dataset contains 2140 images of size 96x96 pixels. Each image is paired with 30 coordinates, representing 15 facial keypoints. These keypoints correspond to the following facial landmarks:
 
-    1. Eyes (center, inner corner, outer corner)
-    2. Eyebrows (inner and outer edges)
-    3. Nose tip
-    4. Mouth (corners, center of top lip, and bottom lip)
+1. Eyes (center, inner corner, outer corner)
+2. Eyebrows (inner and outer edges)
+3. Nose tip
+4. Mouth (corners, center of top lip, and bottom lip)
 Each image is stored as a space-separated string of pixel values in the grayscale format.
 
 ### Installation
@@ -64,11 +64,11 @@ The model is constructed as follows:
 ### Training and Testing
 The dataset is divided into training and testing sets. Training is performed using the following steps:
 
-    1. Compile the model: Using a mean squared error loss function and Adam optimizer.
-    2. Train: The model is trained on the training set and validated on the testing set.
+1. Compile the model: Using a mean squared error loss function and Adam optimizer.
+2. Train: The model is trained on the training set and validated on the testing set.
 
-`model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])`\
-`model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=50)`
+    model.compile(optimizer='adam', loss='mean_squared_error', metrics=['accuracy'])
+    model.fit(X_train, y_train, validation_data=(X_test, y_test), epochs=50)
 
 ### Augmentation Techniques
 Data augmentation is crucial in this project to increase the size of the dataset and enhance the model's robustness. Augmentation methods include:

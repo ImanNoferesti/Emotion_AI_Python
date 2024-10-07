@@ -12,10 +12,10 @@ This project uses deep learning techniques to detect facial keypoints in graysca
 * Training and Testing
 * Augmentation Techniques
 * Results Visualization
-
+-
 ### Overview
 Facial keypoint detection is an essential task in computer vision, with applications ranging from facial recognition to augmented reality. In this project, we implement a deep residual neural network to accurately identify keypoints on a face in images of size 96x96 pixels.
-
+-
 ### Dataset
 The dataset contains 2140 images of size 96x96 pixels. Each image is paired with 30 coordinates, representing 15 facial keypoints. These keypoints correspond to the following facial landmarks:
 

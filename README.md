@@ -10,14 +10,17 @@ This project aims to classify people’s emotions based on their facial images a
 * **Dataset:** Includes over 2000 images with facial key-point annotations.
 * **Approach:** Build a Convolutional Neural Network (CNN) with Residual Blocks (ResNet) to detect key facial points.
 
+![Key Facial Points Image](./Image/FacialKeys.png)
+
 ### Part 2: Facial Expression (Emotion) Detection
 * **Objective:** Classify facial emotions into 5 categories:
-  * 0: Angry 😡
-  * 1: Disgust 😖
-  * 2: Sad 😔
-  * 3: Happy 😄
-  * 4: Surprise 😲
-* **Dataset:** Contains more than 20,000 labeled facial images.
+  * 0: Angry 
+  * 1: Disgust 
+  * 2: Sad 
+  * 3: Happy 
+  * 4: Surprise 
+  
+  ![Emotions Image](./Image/Emotions.png)
 
 ## Project Steps
 **General Steps**

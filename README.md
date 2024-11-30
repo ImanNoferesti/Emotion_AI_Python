@@ -26,11 +26,13 @@ This project aims to classify people’s emotions based on their facial images a
 3. **Data Normalization and Scaling:** Prepare data for efficient model training.
 
 **Key Facial Points Detection**
+
 4. **Build ResNet Model:** Design a CNN with Residual Blocks for key point detection.
 5. **Compile and Train Model:** Train the model to predict facial key points.
 6. **Model Performance Assessment:** Evaluate the model’s accuracy and reliability.
 
 **Facial Expression Detection**
+
 7. **Explore Emotion Dataset:** Import and analyze the emotion dataset.
 8. **Visualize Emotion Data:** Gain insights through visual exploration.
 9. **Build Emotion Classifier:** Create a classifier model for emotion detection.
@@ -38,6 +40,7 @@ This project aims to classify people’s emotions based on their facial images a
 11. **Evaluate Classifier:** Understand key performance indicators (KPIs) and assess results.
 
 **Predictions and Deployment**
+
 12. **Model Predictions:** Generate predictions using:
    * Key Facial Points Detection Model
    * Emotion Classifier Model
